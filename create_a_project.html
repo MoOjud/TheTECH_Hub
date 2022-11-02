@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="icon" type="image/png" href="images/favicon.jfif" />
+
+    <title>Create a Project</title>
+
+  
+</head>
+
+<style>
+ h1 {text-align: center;}
+ p {text-align: center;}
+ div {text-align: left;}
+</style>
+
+
+<div>
+  <div class="Header">
+    <div class="Header Left" style="display:flex;align-items:center;height:50px;margin:6px 0px 10px;">
+    <a href="index.html"><img src="images/Tech Hub Logo.png" loading="lazy" style="height:60px;cursor:pointer;"></a>
+    </div>
+    <div class="Header Right"></div>
+</div>
+  <div style = "position:relative; left:80px;">
+    <style>
+      </style>
+          <div>
+            <h1><b>Create a new project</b></h1>
+            <p><center>A project contains the project title, description of the project, timeline for delivery, budget range.</center></p>
+            
+            <form action="/action_page.php">
+              <label for="Owner">
+                <span>Owner Name</span>
+                <input type="text" id="Owner" />
+              </label>
+              <label for="Project Title">
+                <span>Project Title</span>
+                <input type="text" id="Project Title"/>
+              </label><br>
+              <label for="Project Description">Project Description</label><br>
+              <input type="text" style="font: size 10px;;height: 120px;;width: 400px;;" id="Project Description" name="Project Description"><br>
+              <label for="When do you need your project delivered?">When do you need your project delivered?</label><br>
+              <input type="date" id="When do you need your project delivered?" name="When do you need your project delivered?"><br>
+              <label for="Enter a budget range for your project?">Enter a budget range for your project? </label><br>
+              <input type="number" id="Enter a budget range for your project?" name="Enter a budget range for your project?" placeholder="$"> to
+              <input type="number" id="Enter a budget range for your project?" name="Enter a budget range for your project?" placeholder="$"><br><br>
+              <input type="submit" value="Submit" class="btn btn-outline-primary">
+            </form>
+          </div>
+      
+  </div>
+</div>
+
+</body>
+</html>
+
