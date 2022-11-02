@@ -11557,3 +11557,43 @@ textarea.form-control-lg {
 .list-group-item {
   background-color: transparent;
 }
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: white;
+  border: 1px darkblue;
+  margin-top: 13px;
+  color: black;
+  border-right: none;
+  font-size: 14px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 50px;
+  background: navy;
+  border: 2px white;
+  margin-top: 7px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
