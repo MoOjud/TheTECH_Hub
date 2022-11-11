@@ -11597,3 +11597,68 @@ textarea.form-control-lg {
 .srch:focus{
   outline: none;
 }
+
+.service1{
+  border-color: #485785;
+  border-radius: 10px;
+  border-width: 3px;
+  background-image:url('images/Cybersecurity.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  margin: 10px 10px 10px 20px;
+}
+
+.service2{
+  border-color: #485785;
+  border-radius: 10px;
+  border-width: 3px;
+  background-image:url('images/WebDesign.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  margin: 10px
+}
+
+.service3{
+  border-color: #485785;
+  border-radius: 10px;
+  border-width: 3px;
+  background-image:url('images/LogoDesign.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  margin: 10px
+}
+
+.service4{
+  border-color: #485785;
+  border-radius: 10px;
+  border-width: 3px;
+  background-image:url('images/DevOps.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  margin: 10px
+}
+
+.service5{
+  border-color: #485785;
+  border-radius: 10px;
+  border-width: 3px;
+  background-image:url('images/ProjectManagement.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  margin: 10px 20px 10px 10px
+}
